@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4731aec9-b640-4a3e-af20-9939c22a1609" name="Default" comment="" />
+    <list default="true" id="4731aec9-b640-4a3e-af20-9939c22a1609" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lesson2Variable.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/test/test.js" afterPath="$PROJECT_DIR$/test/test.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,8 +23,8 @@
           <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+                <state relative-caret-position="324">
+                  <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -40,11 +44,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Song.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Song.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Song.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="234">
                   <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Lesson2Variable.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Lesson2Variable.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -73,9 +87,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/code.js" />
-        <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/src/Song.js" />
         <option value="$PROJECT_DIR$/src/Lesson1Straight.js" />
+        <option value="$PROJECT_DIR$/src/Lesson2Variable.js" />
+        <option value="$PROJECT_DIR$/test/test.js" />
       </list>
     </option>
   </component>
@@ -164,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.RegressionTest">
+  <component name="RunManager" selected="Mocha.test/test.js">
     <configuration name="code.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/src/Lesson1Straight.js" working-dir="$PROJECT_DIR$/src" />
     <configuration name="RegressionTest" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
@@ -229,9 +244,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.RegressionTest" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.bowling" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.test/test.js" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.test/test.js" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.RegressionTest" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.bowling" />
         <item index="3" class="java.lang.String" itemvalue="Node.js.code.js" />
         <item index="4" class="java.lang.String" itemvalue="Mocha.test 2.testname" />
       </list>
@@ -257,20 +272,11 @@
       <workItem from="1515354192930" duration="346000" />
       <workItem from="1516114887937" duration="3154000" />
       <workItem from="1525101057879" duration="47000" />
-      <workItem from="1525101219775" duration="1875000" />
+      <workItem from="1525101219775" duration="2259000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegressionTest - 2018.04.30 at 10h 27m 57s.xml">
-      <configuration name="RegressionTest" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="RegressionTest - 2018.04.30 at 10h 28m 09s.xml">
-      <configuration name="RegressionTest" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="RegressionTest - 2018.04.30 at 10h 30m 21s.xml">
-      <configuration name="RegressionTest" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="RegressionTest - 2018.04.30 at 10h 30m 25s.xml">
       <configuration name="RegressionTest" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -292,9 +298,18 @@
     <history-entry file="RegressionTest - 2018.04.30 at 13h 28m 16s.xml">
       <configuration name="RegressionTest" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="RegressionTest - 2018.04.30 at 15h 36m 17s.xml">
+      <configuration name="RegressionTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="RegressionTest - 2018.04.30 at 15h 39m 54s.xml">
+      <configuration name="RegressionTest" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="test_test_js - 2018.04.30 at 15h 40m 16s.xml">
+      <configuration name="test/test.js" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7255000" />
+    <option name="totallyTimeSpent" value="7639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1650" height="1050" extended-state="0" />
@@ -521,10 +536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.js">
+    <entry file="file://$PROJECT_DIR$/src/Song.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -537,10 +552,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Song.js">
+    <entry file="file://$PROJECT_DIR$/test/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson2Variable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>
