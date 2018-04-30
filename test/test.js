@@ -2,6 +2,7 @@ const assert = require('assert');
 const lesson1 = require('../src/Lesson1Straight');
 const lesson2 = require('../src/Lesson2Variable');
 const lesson21 = require('../src/Lesson21');
+const lesson3 = require('../src/Lesson3HigherOrderFunctions');
 
 
 describe('RegressionTest', () => {
@@ -25,5 +26,11 @@ describe('RegressionTest', () => {
         song.singSong(3, names);
         console.log(song.song);
        // Approvals.verify(song.song);
+    });
+    it('test lesson3', () => {
+        const song = new lesson3.Lesson3HigherOrderFunctions();
+        song.singSong();
+        console.log(song.song);
+        // Approvals.verify(song.song);
     });
 });

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4731aec9-b640-4a3e-af20-9939c22a1609" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lesson21.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Lesson3HigherOrderFunctions.js" />
       <change beforePath="$PROJECT_DIR$/test/test.js" afterPath="$PROJECT_DIR$/test/test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +22,8 @@
           <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+                <state relative-caret-position="384">
+                  <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -64,11 +63,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Lesson21.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Lesson21.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Lesson21.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="504">
                   <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Lesson3HigherOrderFunctions.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/Lesson3HigherOrderFunctions.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="278">
+                  <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -88,7 +97,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>song</find>
+      <find>sing</find>
     </findStrings>
+    <replaceStrings>
+      <replace>this.sing</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,8 +113,9 @@
         <option value="$PROJECT_DIR$/src/Song.js" />
         <option value="$PROJECT_DIR$/src/Lesson1Straight.js" />
         <option value="$PROJECT_DIR$/src/Lesson2Variable.js" />
-        <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/src/Lesson21.js" />
+        <option value="$PROJECT_DIR$/src/Lesson3HigherOrderFunctions.js" />
+        <option value="$PROJECT_DIR$/test/test.js" />
       </list>
     </option>
   </component>
@@ -189,22 +203,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.RegressionTest.test lesson21">
+  <component name="RunManager" selected="Mocha.RegressionTest.test lesson3">
     <configuration name="Lesson21.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="Lesson21.js" working-dir="$PROJECT_DIR$/src" />
-    <configuration name="RegressionTest" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/test/test.js</test-file>
-      <test-names>
-        <name value="RegressionTest" />
-      </test-names>
-    </configuration>
     <configuration name="RegressionTest.test beer" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -235,6 +235,21 @@
         <name value="test lesson21" />
       </test-names>
     </configuration>
+    <configuration name="RegressionTest.test lesson3" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/test.js</test-file>
+      <test-names>
+        <name value="RegressionTest" />
+        <name value="test lesson3" />
+      </test-names>
+    </configuration>
     <configuration name="test/test.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -248,18 +263,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Mocha.test/test.js" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.RegressionTest" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.RegressionTest.test lesson21" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.Lesson21.js" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.RegressionTest.test beer" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.RegressionTest.test lesson21" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.Lesson21.js" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.RegressionTest.test beer" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.RegressionTest.test lesson3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.RegressionTest.test lesson21" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.Lesson21.js" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.RegressionTest.test beer" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.test/test.js" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.RegressionTest" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.RegressionTest.test lesson3" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.RegressionTest.test lesson21" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.Lesson21.js" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.RegressionTest.test beer" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.test/test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +299,7 @@
       <workItem from="1516114887937" duration="3154000" />
       <workItem from="1525101057879" duration="47000" />
       <workItem from="1525101219775" duration="2416000" />
-      <workItem from="1525121007261" duration="619000" />
+      <workItem from="1525121007261" duration="923000" />
     </task>
     <servers />
   </component>
@@ -297,9 +312,6 @@
     </history-entry>
     <history-entry file="RegressionTest_test_beer - 2018.04.30 at 15h 50m 13s.xml">
       <configuration name="RegressionTest.test beer" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="RegressionTest_test_lesson21 - 2018.04.30 at 15h 47m 33s.xml">
-      <configuration name="RegressionTest.test lesson21" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="RegressionTest_test_lesson21 - 2018.04.30 at 15h 48m 09s.xml">
       <configuration name="RegressionTest.test lesson21" configurationId="mocha-javascript-test-runner" />
@@ -319,9 +331,12 @@
     <history-entry file="RegressionTest_test_lesson21 - 2018.04.30 at 15h 53m 53s.xml">
       <configuration name="RegressionTest.test lesson21" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="RegressionTest_test_lesson3 - 2018.04.30 at 15h 59m 42s.xml">
+      <configuration name="RegressionTest.test lesson3" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8415000" />
+    <option name="totallyTimeSpent" value="8719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1650" height="1050" extended-state="0" />
@@ -612,18 +627,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lesson21.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lesson3HigherOrderFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
         </state>
       </provider>
