@@ -4,43 +4,40 @@ const lesson2 = require('../src/Lesson2Variable');
 const lesson21 = require('../src/Lesson21');
 const lesson3 = require('../src/Lesson3HigherOrderFunctions');
 const lesson31 = require('../src/Lesson31');
-
+require('approvals').mocha();
 
 describe('RegressionTest', () => {
-    it('test cat song', () => {
+    it('test cat song',function()  {
         const song = new lesson1.Lesson1Straight();
         song.singCatSong();
-        //console.log(song.song);
-       // Approvals.verify(song.song);
+        this.verify(song.song,  {reporters: ['diffmerge']});
+
     });
-    it('test beer', () => {
+    it('test beer', function(){
         const song = new lesson2.Lesson2Variable();
         song.singBottlesOfBeer();
-        //console.log(song.song);
-       // Approvals.verify(song.song);
+        this.verify(song.song,  {reporters: ['diffmerge']});
     });
-    it('test lesson21', () => {
+    it('test lesson21', function(){
         const song = new lesson21.Lesson21();
         const names = ["Llewellyn", "Samatha", "Tomas", "Emilia"];
         song.singSong(1, names);
         song.singSong(2, names);
         song.singSong(3, names);
-        console.log(song.song);
-       // Approvals.verify(song.song);
+        this.verify(song.song,  {reporters: ['diffmerge']});
     });
-    it('test lesson3', () => {
+    it('test lesson3', function() {
         const song = new lesson3.Lesson3HigherOrderFunctions();
         song.singSong();
-        console.log(song.song);
-        // Approvals.verify(song.song);
+        this.verify(song.song,  {reporters: ['diffmerge']});
+
     });
-    it('test lesson31', () => {
+    it('test lesson31', function() {
         const song = new lesson31.Lesson31();
         const names = ["Llewellyn", "Samatha", "Tomas", "Emilia"];
         song.singSong(1, names);
         song.singSong(2, names);
         song.singSong(3, names);
-        console.log(song.song);
-        // Approvals.verify(song.song);
+        this.verify(song.song,  {reporters: ['diffmerge']});
     });
 });
